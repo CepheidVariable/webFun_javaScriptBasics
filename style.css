@@ -1,0 +1,79 @@
+a:link, a:visited{
+    color: rgb(105, 222, 227);
+}
+a:hover{
+    color: rgb(113, 0, 128);
+}
+#wrapper{
+    background-color: rgb(27, 51, 93);
+    display: flex;
+    flex-direction: column;
+    color: rgb(193, 220, 241);
+}
+#header{
+    background-color: rgb(207, 48, 54);
+    border-radius: 10px;
+    height: 75px;
+    width: 1060px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+#header h1{
+    font-weight: 700;
+    font-size: 24pt;
+}
+
+#main{
+    width: 1080px;
+    margin: 20px 0px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#nav{
+    background-color: rgb(42, 125, 140);
+    border-radius: 10px;
+    width: 180px;
+    padding: 0px 20px 0px 20px;
+}
+#nav:first-of-type ul{
+    padding-left: 0px;
+    list-style: none;
+}
+#nav ul:first-of-type ul{
+    padding-left: 20px;
+    list-style: disc;
+}
+#nav ul ul:first-of-type ul{
+    list-style: circle;
+}
+#body{
+    background-color: rgb(14, 24, 34);
+    border-radius: 10px;
+    width: 800px;
+    padding: 20px;
+    font-size: 12pt;
+}
+#body h2{
+    font-weight: 700;
+    font-size: 18pt;
+}
+#body li + li{
+    padding-top: 20px;
+}
+span.flavor{
+    color: rgb(114, 123, 255);
+}
+
+#footer{
+    background-color: rgb(93, 102, 115);
+    border-radius: 10px;
+    height: 50px;
+    width: 1060px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12pt;
+}
